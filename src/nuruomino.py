@@ -8,7 +8,6 @@
 
 from search import *
 
-
 class NuruominoState:
     state_id = 0
 

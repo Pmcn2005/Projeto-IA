@@ -16,8 +16,8 @@ for input_file in ./tests/*.txt; do
         echo "$test_number: PASS"
     else
         echo "$test_number: FAIL"
-        echo "Differences:"
-        diff output.txt "$expected_output_file"
+        #echo "Differences:"
+        #diff output.txt "$expected_output_file"
     fi
 done
 
