@@ -9,7 +9,6 @@
 from search import *
 import sys
 
-
 class NuruominoState:
     state_id = 0
 

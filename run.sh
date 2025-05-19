@@ -14,9 +14,15 @@ for input_file in ./tests/*.txt; do
     if diff -q output.txt "$expected_output_file" > /dev/null; then
         echo "$input_file: PASS"
     else
+<<<<<<< HEAD
         echo "$input_file: FAIL"
         echo "Differences:"
         diff output.txt "$expected_output_file"
+=======
+        echo "$test_number: FAIL"
+        #echo "Differences:"
+        #diff output.txt "$expected_output_file"
+>>>>>>> refs/remotes/origin/master
     fi
 done
 
