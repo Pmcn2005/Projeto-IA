@@ -7,6 +7,7 @@
 # 109762 Andrei Barb
 
 from search import *
+import sys
 
 
 class NuruominoState:
@@ -90,3 +91,19 @@ class Nuruomino(Problem):
         """Função heuristica utilizada para a procura A*."""
         # TODO
         pass
+
+
+if __name__ == "__main__":
+    a = input()
+
+    print(a)
+
+    # # Lê o tabuleiro do standard input
+    # board = Board.parse_instance()
+
+    # # Cria o problema
+    # problem = Nuruomino(board)
+
+    # # Executa a procura A* e imprime a solução
+    # result = astar_search(problem)
+    # print(result.solution())
